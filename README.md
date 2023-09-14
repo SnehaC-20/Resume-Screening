@@ -31,6 +31,8 @@ It inclues the entire description of the dataset by using some terms as follows
 - It involves creating plots and graphs to visually explore and understand the data.
 - Visualization helps identify patterns, relationships, and anomalies in the data.
 - Common types of visualizations include histograms, scatter plots, box plots, and heatmaps.
+  <img width="650" alt="Screenshot 2023-09-14 114740" src="https://github.com/SnehaC-20/Resume-Screening/assets/138655723/e4ef7732-97cc-426e-8264-2e3f850d59ae">
+
   
 
 
