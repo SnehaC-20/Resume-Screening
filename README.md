@@ -34,7 +34,8 @@ It inclues the entire description of the dataset by using some terms as follows
 
 <img width="650" alt="Screenshot 2023-09-14 114740" src="https://github.com/SnehaC-20/Resume-Screening/assets/138655723/e4ef7732-97cc-426e-8264-2e3f850d59ae">
 
-#### The above image display the plot, you will see a bar chart where the x-axis represents the unique categories in the "Category" column of your resumeDataSet, and the y-axis represents the count of occurrences for each category. Above each bar, you will see an annotation displaying the exact count for that category. The rotated x-axis labels make it easier to read the category names, especially if they are long or numerous. The gridlines help you visually align the bars and interpret the plot more effectively.
+The above image displays the plot in bar chart where the x-axis represents the unique categories in the "Category" column of your resumeDataSet, and the y-axis represents the count of occurrences for each category. Above each bar, will display the exact count for that category. The rotated x-axis labels make it easier to read the category names, especially if they are long or numerous. The gridlines help you visually align the bars and interpret the plot more effectively.
+
   
 
 
