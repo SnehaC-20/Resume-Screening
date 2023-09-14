@@ -1,6 +1,7 @@
 # Resume-Screening
+   ![64d03d94c73469cb85a2d3ca_shutterstock_1279483576](https://github.com/SnehaC-20/Resume-Screening/assets/138655723/94e87248-b727-45c6-98ea-f9fd71e5687b)
 
-## Description
+### Description
 Resume screening is the process of reviewing and evaluating job applicants' resumes or CVs to determine whether they meet the qualifications and requirements for a specific job or position.It is typically one of the initial steps in the hiring process and is used by employers to narrow down the pool of applicants before conducting interviews or further assessments.
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install numpy, pandas, matplotlib, sklearn
@@ -38,18 +39,16 @@ To clean resume text by removing URLs, RT and cc mentions, hashtags, special cha
 - Visualization helps identify patterns, relationships, and anomalies in the data.
 - Common types of visualizations include histograms, scatter plots, box plots, and heatmaps.
 
-<div align=”center”>
- 
-<img width="650" alt="Screenshot 2023-09-14 114740" src="https://github.com/SnehaC-20/Resume-Screening/assets/138655723/e4ef7732-97cc-426e-8264-2e3f850d59ae">
-
-</div>
+<p align="center">
+ <img width="650" alt="Screenshot 2023-09-14 114740" src="https://github.com/SnehaC-20/Resume-Screening/assets/138655723/e4ef7732-97cc-426e-8264-2e3f850d59ae">
+</p>
 
 The above image displays the plot in bar chart where the x-axis represents the unique categories in the "Category" column 
 of your resumeDataSet, and the y-axis represents the count of occurrences for each category. Above each bar, will display the exact count for that category. The rotated x-axis labels make it easier to read the category names, especially if 
 they are long or numerous. The gridlines help you visually align the bars and interpret the plot more effectively.
-
-<img align = ”center” width="455" alt="Screenshot 2023-09-14 120416" src="https://github.com/SnehaC-20/Resume-Screening/assets/138655723/3784c8c7-0dc6-4bb4-a313-a04fbfb36597">
-
+<p align="center">
+ <img align = ”center” width="455" alt="Screenshot 2023-09-14 120416" src="https://github.com/SnehaC-20/Resume-Screening/assets/138655723/3784c8c7-0dc6-4bb4-a313-a04fbfb36597">
+</p>
 
 A pie chart is a circular graphical representation used to visualize the distribution or composition of a categorical data set. It divides the data into slices or wedges, each of which represents a category, and the size of each slice corresponds to the proportion of that category in the resume dataset.
 
@@ -64,9 +63,9 @@ a numerical format that can be used as input to machine learning algorithms.
 - Once we train the model with the training dataset, it's time to test the model with the test dataset. This dataset evaluates the performance of the model and ensures that the model can generalize well with the new or unseen dataset.
 The test dataset is another subset of original data, which is independent of the training dataset.
 - The testing data should represent the part of original dataset and also it should be large enough to give meaningful predictions.
-<div align=”center”>
-   <img width="395" alt="Screenshot 2023-09-14 140634" src="https://github.com/SnehaC-20/Resume-Screening/assets/138655723/4da6671f-6467-4140-b340-b90009d3ca2b">
-</div>
+<p align="center">
+<img width="395" alt="Screenshot 2023-09-14 140634" src="https://github.com/SnehaC-20/Resume-Screening/assets/138655723/4da6671f-6467-4140-b340-b90009d3ca2b">
+</p>
  
  #### For splitting the dataset, we can use the train_test_split function of scikit-learn.
  In intel this scikit-learn is represented as follows
