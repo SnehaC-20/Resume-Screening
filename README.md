@@ -26,6 +26,8 @@ It inclues the entire description of the dataset by using some terms as follows
 * Shape is for describing entire rows and columns that are existed in the dataset
 * unique() is for viewing the unrepeated terms
 * count() it shows the counting of that particular term
+#### 4.Data Cleaning
+To clean resume text by removing URLs, RT and cc mentions, hashtags, special characters, non-ASCII characters, and extra whitespace. It then applies this cleaning function to a DataFrame containing resume data and stores the cleaned text in a new column. This is a common preprocessing step when working with text data, as it helps standardize and prepare the text for further analysis or natural language processing tasks.
 ## Data Visualization
 - Data visualization is a critical part of data exploration.
 - It involves creating plots and graphs to visually explore and understand the data.
@@ -35,6 +37,22 @@ It inclues the entire description of the dataset by using some terms as follows
 <img width="650" alt="Screenshot 2023-09-14 114740" src="https://github.com/SnehaC-20/Resume-Screening/assets/138655723/e4ef7732-97cc-426e-8264-2e3f850d59ae">
 
 The above image displays the plot in bar chart where the x-axis represents the unique categories in the "Category" column of your resumeDataSet, and the y-axis represents the count of occurrences for each category. Above each bar, will display the exact count for that category. The rotated x-axis labels make it easier to read the category names, especially if they are long or numerous. The gridlines help you visually align the bars and interpret the plot more effectively.
+
+ <img width="455" alt="Screenshot 2023-09-14 120416" src="https://github.com/SnehaC-20/Resume-Screening/assets/138655723/3784c8c7-0dc6-4bb4-a313-a04fbfb36597">
+ 
+A pie chart is a circular graphical representation used to visualize the distribution or composition of a categorical data set. It divides the data into slices or wedges, each of which represents a category, and the size of each slice corresponds to the proportion of that category in the resume dataset.
+
+### Splitting dataset into Train and Test set
+Splitting the dataset into train and test sets is one of the important parts of data pre-processing, as by doing so, we can improve the performance of our model and hence give better predictability.
+### Training model
+- Now the resume text data is converted into TF-IDF feature vectors and then splits the data into training and testing sets, making it ready for machine learning model training and evaluation. The TF-IDF vectors represent the text data in a numerical format that can be used as input to machine learning algorithms.
+- The type of training data that we provide to the model is highly responsible for the model's accuracy and prediction ability. It means that the better the quality of the training data, the better will be the performance of the model. Training data is approximately more than or equal to 60% of the total data for an ML project.
+### Testing model
+- Once we train the model with the training dataset, it's time to test the model with the test dataset. This dataset evaluates the performance of the model and ensures that the model can generalize well with the new or unseen dataset. The test dataset is another subset of original data, which is independent of the training dataset.
+- The testing data should represent the part of original dataset and also it should be large enough to give meaningful predictions.
+  
+
+
 
   
 
